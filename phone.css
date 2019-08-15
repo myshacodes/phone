@@ -1,0 +1,30 @@
+body {
+  background-color: lemonchiffon;
+}
+.phonecase {
+  position: absolute;
+  border-radius: 8%;
+  left: 32%;
+  top: 21%;
+  background-color: violet;
+  height: 450px;
+  width: 250px;
+  padding: 7px;
+}
+.screen {
+  position: absolute;
+  width: 90%;
+  height: 85%;
+  background: url("https://source.unsplash.com/300x500/?harry-potter") no-repeat;
+  margin: 2%;
+  padding: 0px;
+  text-align: center;
+  color: grey;
+}
+.screen > div {
+  font-size: 3em;
+  color: #000;
+  margin-top: 20px;
+  padding-top: 10px;
+  background-color: #fff4;
+}
