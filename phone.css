@@ -25,7 +25,7 @@ body {
 }
 .clocklock {
   font-size: 3em;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   margin-top: 20px;
   padding-top: 10px;
   display: block;
@@ -79,10 +79,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
-/* .app :nth-child(1) {
-  padding: 2px;
-  border: 1px solid magenta;
-} */
 .app {
   display: flex;
   justify-content: center;
@@ -92,7 +88,10 @@ body {
   margin-right: 10px;
   margin-left: 10px;
   padding: 14px;
-  background-color: rgb(255, 150, 255);
+  background-color: papayawhip;
   border-radius: 10px;
   text-align: inherit;
+}
+.app-details {
+  display: none;
 }
