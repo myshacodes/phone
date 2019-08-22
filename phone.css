@@ -1,5 +1,6 @@
 body {
   background-color: royalblue;
+  font-family: "Livvic", sans-serif;
 }
 .phonecase {
   position: absolute;
@@ -91,6 +92,7 @@ body {
   background-color: papayawhip;
   border-radius: 10px;
   text-align: inherit;
+  cursor: grabbing;
 }
 .app-details {
   display: none;

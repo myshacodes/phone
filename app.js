@@ -82,9 +82,14 @@
       case "whatsapp":
         title = "Welcome to Whatsapp";
         message = "No one is online right now";
+        break;
       case "Github":
         title = "Welcome to Github";
         message = "Create a new repository or commit updates!";
+        break;
+      default:
+        title = "Welcome";
+        message = "lorem ipsum dolor sit amet ";
         break;
     }
 
